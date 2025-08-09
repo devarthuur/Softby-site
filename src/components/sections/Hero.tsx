@@ -51,7 +51,7 @@ export const Hero = () => {
             Transforme sua empresa
             <br />
             <span className="relative">
-              presença digital
+              
               <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-primary animate-shimmer"></div>
             </span>
           </h1>

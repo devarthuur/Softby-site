@@ -55,9 +55,11 @@ const pricingPlans = [
 
 export const Pricing = () => {
   return (
-    <section id="pacotes" className="py-20 bg-gradient-to-b from-secondary/20 to-background">
+    // <------ reduzi o padding-top só no mobile: pt-8 (mobile) e md:pt-20 (desktop)
+    <section id="pacotes" className="pt- md:pt-20 pb-20 bg-gradient-to-b from-secondary/20 to-background">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16 space-y-4 animate-fade-in">
+        {/* Espaçamento menor no mobile e maior no desktop */}
+        <div className="text-center mb-8 md:mb-16 space-y-4 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent">
             Nossos Pacotes
           </h2>

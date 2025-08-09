@@ -27,7 +27,8 @@ const features = [
 
 export const About = () => {
   return (
-    <section id="sobre" className="py-20 bg-gradient-to-b from-secondary/20 to-background">
+    // Reduzido o topo no mobile: pt-8 (mobile) e md:pt-20 (desktop)
+    <section id="sobre" className="pt-8 md:pt-20 pb-20 bg-gradient-to-b from-secondary/20 to-background">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Conteúdo textual */}
