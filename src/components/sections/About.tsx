@@ -42,7 +42,10 @@ export const About = () => {
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 Com anos de experiência no mercado, desenvolvemos soluções completas que incluem tráfego pago, criação de landing pages otimizadas e design que converte. Cada projeto é único e desenvolvido sob medida.
               </p>
-              <WhatsAppButton variant="hero" className="text-lg px-8 py-4" />
+              {/* Botão centralizado */}
+              <div className="flex justify-center">
+                <WhatsAppButton variant="hero" className="text-lg px-8 py-4" />
+              </div>
             </div>
           </div>
 

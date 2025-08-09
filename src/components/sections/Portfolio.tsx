@@ -41,24 +41,6 @@ const portfolioItems = [
     technologies: ["React", "CMS", "Booking System"],
     demoLink: "https://www.online-page.com.br/zooti-pet"
   },
-  //{
-    //id: 4,
-    //title: "App de Fitness",
-    //category: "Saúde & Bem-estar",
-    //image: portfolioEcommerce,
-    //description: "Aplicativo completo para acompanhamento de treinos e nutrição.",
-    //technologies: ["React Native", "Firebase", "Analytics"],
-    //demoLink: "https://www.exemplo.com/fitness"
-  //},
-  // {
-   // id: 5,
-   // title: "Portal Educacional",
-  //  category: "Educação",
-   // image: portfolioCorporate,
-   // description: "Plataforma de ensino online com sistema de videoaulas e avaliações.",
-   // technologies: ["Vue.js", "Laravel", "Video Streaming"],
-    //demoLink: "https://www.exemplo.com/educacao"
-  //} //
 ];
 
 export default portfolioItems;
@@ -144,8 +126,9 @@ export const Portfolio = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-4" />
-            <CarouselNext className="right-4" />
+            {/* Aqui aumentamos o espaçamento apenas no mobile */}
+            <CarouselPrevious className="left-1 md:left-4" />
+            <CarouselNext className="right-1 md:right-4" />
           </Carousel>
         </div>
 

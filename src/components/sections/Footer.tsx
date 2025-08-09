@@ -15,15 +15,15 @@ export const Footer = () => {
                 Softby
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Transformando negócios através de estratégias digitais inovadoras. 
+                Transformando negócios através de estratégias digitais inovadoras.
                 Sua parceira para o sucesso online.
               </p>
             </div>
             <WhatsAppButton variant="gradient" />
           </div>
 
-          {/* Serviços */}
-          <div className="space-y-4">
+          {/* Serviços (somente desktop) */}
+          <div className="space-y-4 hidden md:block">
             <h4 className="text-lg font-semibold">Nossos Serviços</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>
@@ -49,8 +49,8 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Links rápidos */}
-          <div className="space-y-4">
+          {/* Links rápidos (somente desktop) */}
+          <div className="space-y-4 hidden md:block">
             <h4 className="text-lg font-semibold">Links Rápidos</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>
@@ -98,20 +98,23 @@ export const Footer = () => {
             <div className="pt-4">
               <h5 className="text-sm font-medium mb-3">Siga-nos</h5>
               <div className="flex space-x-3">
-                <a 
-                  href="https://www.instagram.com/softbydevs/" target="_blank"
+                <a
+                  href="https://www.instagram.com/softbydevs/"
+                  target="_blank"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
                 >
                   <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 </a>
-                <a 
-                  href="#" target="_blank"
+                <a
+                  href="#"
+                  target="_blank"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
                 >
-                  <Facebook className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                <Facebook className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 </a>
-                <a 
-                  href="#" target="_blank"
+                <a
+                  href="#"
+                  target="_blank"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
                 >
                   <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
