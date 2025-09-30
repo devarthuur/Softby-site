@@ -8,8 +8,8 @@ const pricingPlans = [
     id: 1,
     name: "Pacote Básico",
     description: "Ideal para pequenos negócios que estão começando",
-    price: "R$ 299,90 ",
-    period: "/mês",
+    price: "Sob Consulta",
+    period: "",
     features: [
       "Landing Page",
       "Ideias de Criativos",
@@ -23,8 +23,8 @@ const pricingPlans = [
     id: 2,
     name: "Pacote Médio",
     description: "Para empresas que querem crescer rapidamente",
-    price: "R$ 499,90 ",
-    period: "/mês",
+    price: "Sob Consulta",
+    period: "",
     features: [
       "2 Landing Pages Otimizadas",
       "Tráfego Pago Multi-plataforma",
@@ -39,8 +39,8 @@ const pricingPlans = [
     id: 3,
     name: "Pacote Softby",
     description: "Solução completa para dominar o mercado",
-    price: "R$ 999,99",
-    period: "/mês",
+    price: "Sob Consulta",
+    period: "",
     features: [
       "Site Completo + Blog",     
       "Gestão Completa de Redes",

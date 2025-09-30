@@ -13,7 +13,7 @@ export const WhatsAppButton = ({
   message = "Olá! Gostaria de conhecer os serviços da Softby."
 }: WhatsAppButtonProps) => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5511999999999"; // Substitua pelo número real
+    const phoneNumber = "5581995183903"; // Substitua pelo número real
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };

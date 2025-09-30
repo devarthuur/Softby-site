@@ -12,8 +12,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telefone",
-    content: "(11) 99999-9999",
-    action: "tel:+5511999999999"
+    content: "(81) 99518-3903",
+    action: "tel:+5581995183903"
   },
   {
     icon: Mail,
@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Horário",
-    content: "Seg-Sex: 9h às 18h",
+    content: "Seg-Sex: 9h às 18h",                                            
     action: null
   }
 ];
