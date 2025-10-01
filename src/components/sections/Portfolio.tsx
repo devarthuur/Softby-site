@@ -21,7 +21,7 @@ const portfolioItems = [
     image: portfolioEcommerce,
     description: "Plataforma completa de conversão de clientes.",
     technologies: ["React", "Node.js", "Stripe"],
-    demoLink: "https://juzesempreedimentos.netlify.app/"
+    demoLink: ""
   },
   {
     id: 2,
